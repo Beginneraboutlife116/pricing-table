@@ -1,4 +1,6 @@
 $ff-sans: "Open Sans", sans-serif;
+// ? When to decide to use map to collect all of our variables?
+// * When we want to leverage the power of loop, then we will use map to store all of our variables.
 
 $font-sizes: (
   900: 3.75rem,
@@ -8,5 +10,6 @@ $font-sizes: (
   400: 1.125rem
 );
 
+// ! 我們不常有多個 font-weight 在一個專案內，所以可以用或不用
 $fw-400: 400;
 $fw-700: 700;
