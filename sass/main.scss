@@ -1,4 +1,7 @@
-$clr: #4677a8;
-body {
-  background-color: $clr;
-}
+@use "vendor"; 
+// ! 如果你想要修改第三方套件的樣式，就建議往前擺放
+@use "abstracts";
+@use "base";
+@use "components";
+@use "layout";
+@use "utilities";
